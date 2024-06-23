@@ -1,0 +1,79 @@
+Manifest-Version: 1.0
+Build-Jdk-Spec: 16
+Class-Path: libs/fillo-1.15.jar libs/selenium-java-4.1.3.jar libs/seleni
+ um-api-4.1.3.jar libs/selenium-chrome-driver-4.1.3.jar libs/selenium-ch
+ romium-driver-4.1.3.jar libs/selenium-devtools-v85-4.1.3.jar libs/selen
+ ium-devtools-v97-4.1.3.jar libs/selenium-devtools-v98-4.1.3.jar libs/se
+ lenium-devtools-v99-4.1.3.jar libs/selenium-edge-driver-4.1.3.jar libs/
+ selenium-firefox-driver-4.1.3.jar libs/selenium-ie-driver-4.1.3.jar lib
+ s/selenium-opera-driver-4.1.3.jar libs/selenium-safari-driver-4.1.3.jar
+  libs/selenium-support-4.1.3.jar libs/selenium-remote-driver-4.1.3.jar 
+ libs/jcommander-1.82.jar libs/auto-service-annotations-1.0.1.jar libs/a
+ uto-service-1.0.1.jar libs/auto-common-1.2.jar libs/netty-buffer-4.1.75
+ .Final.jar libs/netty-codec-http-4.1.75.Final.jar libs/netty-codec-4.1.
+ 75.Final.jar libs/netty-handler-4.1.75.Final.jar libs/netty-common-4.1.
+ 75.Final.jar libs/netty-transport-classes-epoll-4.1.75.Final.jar libs/n
+ etty-transport-classes-kqueue-4.1.75.Final.jar libs/netty-transport-nat
+ ive-epoll-4.1.75.Final.jar libs/netty-transport-native-kqueue-4.1.75.Fi
+ nal.jar libs/netty-transport-native-unix-common-4.1.75.Final.jar libs/n
+ etty-transport-4.1.75.Final.jar libs/netty-resolver-4.1.75.Final.jar li
+ bs/opentelemetry-api-1.12.0.jar libs/opentelemetry-context-1.12.0.jar l
+ ibs/opentelemetry-exporter-logging-1.12.0.jar libs/opentelemetry-sdk-me
+ trics-1.12.0-alpha.jar libs/opentelemetry-sdk-logs-1.12.0-alpha.jar lib
+ s/opentelemetry-sdk-common-1.12.0.jar libs/opentelemetry-sdk-extension-
+ autoconfigure-spi-1.12.0.jar libs/opentelemetry-sdk-extension-autoconfi
+ gure-1.12.0-alpha.jar libs/opentelemetry-sdk-trace-1.12.0.jar libs/open
+ telemetry-sdk-1.12.0.jar libs/opentelemetry-semconv-1.12.0-alpha.jar li
+ bs/jtoml-2.0.0.jar libs/byte-buddy-1.12.8.jar libs/commons-exec-1.3.jar
+  libs/async-http-client-2.12.3.jar libs/async-http-client-netty-utils-2
+ .12.3.jar libs/netty-codec-socks-4.1.60.Final.jar libs/netty-handler-pr
+ oxy-4.1.60.Final.jar libs/netty-transport-native-epoll-4.1.60.Final-lin
+ ux-x86_64.jar libs/netty-transport-native-kqueue-4.1.60.Final-osx-x86_6
+ 4.jar libs/reactive-streams-1.0.3.jar libs/netty-reactive-streams-2.0.4
+ .jar libs/jakarta.activation-1.2.2.jar libs/selenium-http-4.1.3.jar lib
+ s/failsafe-3.2.3.jar libs/selenium-json-4.1.3.jar libs/webdrivermanager
+ -5.5.3.jar libs/slf4j-api-2.0.7.jar libs/gson-2.10.1.jar libs/docker-ja
+ va-3.3.3.jar libs/docker-java-core-3.3.3.jar libs/docker-java-api-3.3.3
+ .jar libs/jackson-annotations-2.10.3.jar libs/jackson-databind-2.10.3.j
+ ar libs/jackson-core-2.10.3.jar libs/bcpkix-jdk18on-1.75.jar libs/bcpro
+ v-jdk18on-1.75.jar libs/bcutil-jdk18on-1.75.jar libs/jcl-over-slf4j-1.7
+ .30.jar libs/docker-java-transport-httpclient5-3.3.3.jar libs/docker-ja
+ va-transport-3.3.3.jar libs/dec-0.1.2.jar libs/commons-lang3-3.13.0.jar
+  libs/httpclient5-5.2.1.jar libs/httpcore5-5.2.jar libs/httpcore5-h2-5.
+ 2.jar libs/guava-31.0.1-jre.jar libs/failureaccess-1.0.1.jar libs/liste
+ nablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar libs/jsr305-3
+ .0.2.jar libs/checker-qual-3.12.0.jar libs/error_prone_annotations-2.7.
+ 1.jar libs/j2objc-annotations-1.3.jar libs/extentreports-5.0.9.jar libs
+ /rxjava-3.0.4.jar libs/freemarker-2.3.30.jar libs/lombok-1.18.12.jar li
+ bs/ashot-1.5.4.jar libs/commons-io-2.5.jar libs/hamcrest-core-1.3.jar l
+ ibs/javax.mail-1.6.2.jar libs/activation-1.1.jar libs/javax.mail-api-1.
+ 6.2.jar libs/java-client-8.0.0.jar libs/commons-codec-1.15.jar libs/cgl
+ ib-3.3.0.jar libs/asm-7.1.jar libs/commons-validator-1.7.jar libs/commo
+ ns-beanutils-1.9.4.jar libs/commons-digester-2.1.jar libs/commons-loggi
+ ng-1.2.jar libs/commons-collections-3.2.2.jar libs/spring-context-5.3.1
+ 6.jar libs/spring-aop-5.3.16.jar libs/spring-beans-5.3.16.jar libs/spri
+ ng-core-5.3.16.jar libs/spring-jcl-5.3.16.jar libs/spring-expression-5.
+ 3.16.jar libs/aspectjweaver-1.9.8.jar libs/sikulixapi-2.0.5.jar libs/jy
+ thon-slim-2.7.2.jar libs/antlr-3.5.2.jar libs/ST4-4.0.8.jar libs/javax.
+ servlet-api-3.1.0.jar libs/antlr-runtime-3.5.2.jar libs/commons-compres
+ s-1.19.jar libs/bcpkix-jdk15on-1.62.jar libs/bcprov-jdk15on-1.62.jar li
+ bs/asm-commons-7.1.jar libs/asm-tree-7.1.jar libs/asm-analysis-7.1.jar 
+ libs/asm-util-7.1.jar libs/icu4j-59.1.jar libs/java-sizeof-0.0.5.jar li
+ bs/jffi-1.2.20.jar libs/jnr-netdb-1.1.6.jar libs/jnr-ffi-2.1.10.jar lib
+ s/jffi-1.2.19-native.jar libs/jnr-a64asm-1.0.0.jar libs/jnr-x86asm-1.0.
+ 2.jar libs/jnr-posix-3.0.50.jar libs/jnr-constants-0.9.12.jar libs/jlin
+ e-2.14.5.jar libs/ant-1.9.7.jar libs/ant-launcher-1.9.7.jar libs/sikuli
+ x2tigervnc-1.1.4.jar libs/opencv-4.3.0-3.jar libs/commons-cli-1.4.jar l
+ ibs/jna-platform-5.6.0.jar libs/reflections8-0.11.6.jar libs/javassist-
+ 3.22.0-GA.jar libs/slf4j-nop-1.7.28.jar libs/py4j-0.10.9.1.jar libs/uni
+ rest-java-3.14.0.jar libs/httpclient-4.5.13.jar libs/httpcore-4.4.13.ja
+ r libs/httpmime-4.5.13.jar libs/httpcore-nio-4.4.13.jar libs/httpasyncc
+ lient-4.1.5.jar libs/mysql-connector-java-8.0.27.jar libs/protobuf-java
+ -3.11.4.jar libs/tess4j-5.8.0.jar libs/jna-5.13.0.jar libs/jai-imageio-
+ core-1.4.0.jar libs/pdfbox-2.0.29.jar libs/fontbox-2.0.29.jar libs/pdfb
+ ox-tools-2.0.29.jar libs/pdfbox-debugger-2.0.29.jar libs/jbig2-imageio-
+ 3.0.4.jar libs/lept4j-1.18.1.jar libs/jboss-vfs-3.2.17.Final.jar libs/j
+ boss-logging-3.1.4.GA.jar
+Main-Class: com.framework.main.RunFramework
+Created-By: Maven Integration for Eclipse
+
